@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <img src="" alt="logo">
-        <h4>Awesome Website</h4>
         <nav>
-            <ul>
-                <li><a href="">LinkOne</a></li>
-                <li><a href="">LinkTwo</a></li>
-                <li><a href="">LinkThree</a></li>
-            </ul>
+            <a href="">LinkOne</a>
+            <a href="">LinkTwo</a>
+            <a href="">LinkThree</a>
         </nav>
     </header>
     <main>
         <section class="home">
-            <h1>This website is awesome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, earum aspernatur. Quod ex delectus neque eaque repellat recusandae, repellendus veniam officia. Non magni quam accusamus repudiandae nostrum iste odit! Adipisci.</p>
-            <button type="button">Sign up</button>
-            <img src="" alt="">
+            <div class="introductionText">
+                <h1>This website is awesome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, earum aspernatur. Quod ex delectus neque eaque repellat recusandae, repellendus veniam officia. Non magni quam accusamus repudiandae nostrum iste odit! Adipisci.</p>
+                <button type="button">Sign up</button>
+            </div>
+            <img src="" alt="image1">
         </section>
         <section class="items">
             <h2>Places of the world</h2>
-            <div>
-                <img src="" alt="">
+            <div class="imgOrg">
+                    <img src="" alt="" class="imgBox">
+                    <img src="" alt="" class="imgBox">
+                    <img src="" alt="" class="imgBox">
+                    <img src="" alt="" class="imgBox">
+            </div>
+            <div class="imgOrg">
                 <p>Iguazu, Misiones, Argentina</p>
-                <img src="" alt="">
                 <p>Bariloche, Rio Negro, Argentina</p>
-                <img src="" alt="">
                 <p>Cayo Azul, Falcon, Venezuela</p>
-                <img src="" alt="">
                 <p>Caracas, Miranda, Venezuela</p>
             </div>
         </section>
@@ -42,10 +44,12 @@
             <p>- by some wise person</p>
         </section>
         <section class="sign">
-            <div class="higlight">
-                <h2>Call to action! It's time</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A error nam libero voluptatibus obcaecati officiis esse incidunt minima eius, laboriosam odit mollitia sit velit enim labore maxime laudantium fugit ducimus?</p>
-                <button type="button">Sign up</button>
+            <div class="blueBox">
+                <div class="column">
+                    <h2>Call to action! It's time</h2>
+                    <p class="signMotive">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A error nam libero voluptatibus obcaecati officiis esse incidunt minima eius, laboriosam odit mollitia sit velit enim labore maxime laudantium fugit ducimus?</p>
+                </div>
+                <button type="button" class="signButton">Sign up</button>
             </div>
         </section>
     </main>

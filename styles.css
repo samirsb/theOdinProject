@@ -1,0 +1,168 @@
+* {
+    font-family: sans-serif;
+}
+
+body { 
+    margin: 0; 
+}
+
+h1 { 
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+    margin-right: 50%;
+}
+
+.introductionText > p {
+    margin: 0;
+    margin-right: 10%;
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+button { 
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 0;
+    flex-wrap: nowrap;
+    background-color: #3882F6;
+    color: #e5e7eb; 
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+header, .home, footer {
+    background-color: #1F2937;
+    color: whitesmoke;
+} 
+
+.quote { 
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote > p {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: larger;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%; 
+    padding-right: 15%;
+}
+
+header > img {
+    height: 50px;
+    width: 100px;
+    background-color: gray;
+}
+
+nav > a {
+    color: #e5e7eb; 
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav, .imgOrg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imgOrg > p {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+}
+
+section { 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%; 
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.items { 
+    padding-top: 0;
+}
+
+.home > img {
+    height: 200px;
+    width: 1000px;
+    background-color: gray;
+}
+
+.quote, .items { 
+    display: flex;
+    flex-direction: column;
+}
+
+.items > h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+i {
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.items > div { 
+    display: flex;
+    flex-direction: row;
+}
+
+.imgBox { 
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.blueBox { 
+    display: flex;
+    background-color:  #3882F6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 60px;
+    align-items: center;
+}
+
+.signButton {
+    border: 2px solid #e5e7eb;
+}
+
+.column { 
+    width: 80%;
+}
+
+footer > p{
+    display: flex;
+    height: 50px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
