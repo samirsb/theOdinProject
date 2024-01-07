@@ -8,15 +8,17 @@
 </head>
 <body>
     <header>
-        <img src="" alt="logo">
-        <nav>
-            <a href="">LinkOne</a>
-            <a href="">LinkTwo</a>
-            <a href="">LinkThree</a>
-        </nav>
+        <div class="navbar">
+            <img src="" alt="logo">
+            <nav>
+                <a href="#items">Places</a> 
+                <a href="#quote">Quotes</a> 
+                <a href="#sign">Sign In</a>  
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="home">
+        <section id="home">
             <div class="introductionText">
                 <h1>This website is awesome</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, earum aspernatur. Quod ex delectus neque eaque repellat recusandae, repellendus veniam officia. Non magni quam accusamus repudiandae nostrum iste odit! Adipisci.</p>
@@ -24,26 +26,32 @@
             </div>
             <img src="" alt="image1">
         </section>
-        <section class="items">
+        <section id="items">
             <h2>Places of the world</h2>
-            <div class="imgOrg">
+            <div class="container">
+                <div class="imgOrg">
                     <img src="" alt="" class="imgBox">
+                    <p>Iguazu, Misiones, Argentina</p>
+                </div>
+                <div class="imgOrg">
                     <img src="" alt="" class="imgBox">
+                    <p>Bariloche, Rio Negro, Argentina</p>
+                </div>
+                <div class="imgOrg"> 
                     <img src="" alt="" class="imgBox">
+                    <p>Cayo Azul, Falcon, Venezuela</p>
+                </div>
+                <div class="imgOrg">
                     <img src="" alt="" class="imgBox">
-            </div>
-            <div class="imgOrg">
-                <p>Iguazu, Misiones, Argentina</p>
-                <p>Bariloche, Rio Negro, Argentina</p>
-                <p>Cayo Azul, Falcon, Venezuela</p>
-                <p>Caracas, Miranda, Venezuela</p>
+                    <p>Caracas, Miranda, Venezuela</p>
+                </div>
             </div>
         </section>
-        <section class="quote">
+        <section id="quote">
             <h2><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt velit tenetur, possimus ea quam reiciendis illum in qui omnis, recusandae distinctio dicta error, voluptatem expedita repellendus neque quaerat mollitia quia?</i></h2>
             <p>- by some wise person</p>
         </section>
-        <section class="sign">
+        <section id="sign">
             <div class="blueBox">
                 <div class="column">
                     <h2>Call to action! It's time</h2>

@@ -6,6 +6,42 @@ body {
     margin: 0; 
 }
 
+header { 
+    position: fixed;
+    width: 100%;   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%; 
+    padding-right: 15%;
+    height: 50px;
+}
+
+.navbar > img {
+    height: 50px;
+    width: 100px;
+    background-color: gray;
+}
+
+nav > a {
+    color: #e5e7eb; 
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#home { 
+    padding-top: 102px;
+}
+
 h1 { 
     font-weight: bold;
     font-size: 48px;
@@ -37,17 +73,29 @@ button {
     border-radius: 10px;
 }
 
-header, .home, footer {
+.navbar, #home, footer {
     background-color: #1F2937;
     color: whitesmoke;
 } 
 
-.quote { 
+.container { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgOrg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote { 
     background-color: #e5e7eb;
     color: #1f2937;
 }
 
-.quote > p {
+#quote > p {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
@@ -55,31 +103,6 @@ header, .home, footer {
     margin: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 15%; 
-    padding-right: 15%;
-}
-
-header > img {
-    height: 50px;
-    width: 100px;
-    background-color: gray;
-}
-
-nav > a {
-    color: #e5e7eb; 
-    padding: 10px;
-    text-decoration: none;
-}
-
-nav, .imgOrg {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 .imgOrg > p {
     display: flex;
@@ -100,36 +123,35 @@ section {
     padding-bottom: 5%;
 }
 
-.items { 
-    padding-top: 0;
-}
 
-.home > img {
+
+#home > img {
     height: 200px;
     width: 1000px;
     background-color: gray;
 }
 
-.quote, .items { 
+#items { 
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.items > h2 {
+#items > h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 50%;
 }
 
+#quote { 
+    display: flex;
+    flex-direction: column;
+}
+
 i {
     font-weight: 100;
     font-size: 36px;
-}
-
-.items > div { 
-    display: flex;
-    flex-direction: row;
 }
 
 .imgBox { 
